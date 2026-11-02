@@ -3,6 +3,7 @@
   hosts: local_machine
   gather_facts: no
 
+s
   tasks:
     - name: Print a "Hello World" message
       ansible.builtin.debug:
